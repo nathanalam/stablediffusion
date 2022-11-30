@@ -4,7 +4,7 @@ setup(
     name='stablediffusion',
     version='0.0.1',
     description='',
-    packages=["ldm", "ldm.models.diffusion"],
+    packages=["ldm", "ldm.models", "ldm.models.diffusion"],
     install_requires=[
         'torch',
         'numpy',
