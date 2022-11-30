@@ -1,10 +1,10 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='stablediffusion',
     version='0.0.1',
     description='',
-    packages=["ldm", "ldm.models", "ldm.models.diffusion"],
+    packages=find_packages(),
     install_requires=[
         'torch',
         'numpy',
